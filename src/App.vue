@@ -1,6 +1,6 @@
 <template>
   <v-app>
-   <TheNavbar />
+   <TheNavbar :app="app"/>
     <v-main>
       <router-view/>
     </v-main>
