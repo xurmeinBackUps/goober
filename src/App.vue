@@ -1,7 +1,7 @@
 <template>
   <v-app>
-   <TheNavbar :app="app"/>
-    <v-main>
+   <TheNavbar app />
+    <v-main app>
       <router-view/>
     </v-main>
   </v-app>
