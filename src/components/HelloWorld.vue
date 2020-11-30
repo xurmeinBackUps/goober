@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+
     <v-row class="text-center">
       <v-col cols="12">
         <v-img
@@ -12,17 +12,10 @@
 
       <v-col class="mb-4">
         <h1 class="display-2 font-weight-bold mb-3">
-          Welcome to Vuetify
+          {{ msg }}
         </h1>
 
-        <p class="subheading font-weight-regular">
-          For help and collaboration with other Vuetify developers,
-          <br>please join our online
-          <a
-            href="https://community.vuetifyjs.com"
-            target="_blank"
-          >Discord Community</a>
-        </p>
+       <TestInput />
       </v-col>
 
       <v-col
@@ -32,6 +25,15 @@
         <h2 class="headline font-weight-bold mb-3">
           What's next?
         </h2>
+
+         <p class="subheading font-weight-regular">
+          For help and collaboration with other Vuetify developers,
+          <br>please join our online
+          <a
+            href="https://community.vuetifyjs.com"
+            target="_blank"
+          >Discord Community</a>
+        </p>
 
         <v-row justify="center">
           <a
@@ -88,12 +90,18 @@
         </v-row>
       </v-col>
     </v-row>
-  </v-container>
+
 </template>
 
 <script>
+import TestInput from './TestInput.vue';
+
 export default {
   name: 'HelloWorld',
+
+  components: {
+    TestInput,
+  },
 
   data: () => ({
     ecosystem: [
@@ -147,5 +155,9 @@ export default {
       },
     ],
   }),
+
+  props: {
+    msg: String
+  }
 };
 </script>

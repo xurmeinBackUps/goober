@@ -1,9 +1,11 @@
 <template>
   <v-app>
-   <TheNavbar />
-    <v-main>
-      <router-view/>
-    </v-main>
+    <v-container>
+      <TheNavbar />
+      <v-main>
+        <router-view/>
+      </v-main>
+    </v-container>
   </v-app>
 </template>
 
@@ -11,7 +13,7 @@
 import TheNavbar from '@/components/TheNavbar.vue';
 
 export default {
-  name: 'App',
+  name: 'AppRoot',
 
   components: {
     TheNavbar,

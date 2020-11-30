@@ -3,7 +3,7 @@ import store from '@/store';
 import router from '@/router';
 import firebaseDb from '@/plugins/firebase.db';
 import vuetify from '@/plugins/vuetify';
-import App from '@/App.vue';
+import AppRoot from '@/AppRoot.vue';
 import 'roboto-fontface/css/roboto/roboto-fontface.css';
 import '@mdi/font/css/materialdesignicons.css';
 
@@ -14,5 +14,5 @@ new Vue({
   vuetify,
   router,
   store,
-  render: (h) => h(App),
+  render: (h) => h(AppRoot),
 }).$mount('#app');
