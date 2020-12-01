@@ -1,7 +1,8 @@
 import Vue from 'vue';
-import { rtdbPlugin } from 'vuefire';
 import firebase from 'firebase/app';
 import 'firebase/database';
+import { rtdbPlugin } from 'vuefire';
+
 
 Vue.use(rtdbPlugin);
 
@@ -16,8 +17,8 @@ const firebaseConfig = {
   measurementId: 'G-XH8DFS1JYR',
 };
 
-const db = firebase
-  .initializeApp(firebaseConfig)
-  .database();
+const db = firebase.initializeApp({
+  databaseURL: firebaseConfig.databaseURL
+}).database();
 
 export default db;

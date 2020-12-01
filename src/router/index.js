@@ -6,17 +6,31 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '/',
-    name: 'VHome',
-    component: () => import(/* webpackChunkName: "home" */ '@/views/VHome.vue'),
+    name: 'Home',
+    component: () => import(/* webpackChunkName: "home" */ '@/views/HomePage.vue'),
+                      // this ^^^^^ is a magic comment foe webpack
+
   },
   {
-    path: '/about',
-    name: 'VAbout',
+    path: '/posts',
+    name: 'PostIndex',
     // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
+    // this generates a separate chunk (posts.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '@/views/VAbout.vue'),
+    component: () => import(/* webpackChunkName: "postIndex" */ '@/views/PostIndexPage.vue'),
+    props: true,
   },
+  {
+    path: '/posts/:id',
+    name: 'PostShow',
+    component: () => import(/* webpackChunkName: "postShow" */ '@/views/PostShowPage.vue'),
+    props: true
+  },
+  {
+    path: '*', // <-- the wildcard route, catches urls not matching any preceding routes
+    name: 'NotFound',
+    component: () => import(/* webpackChunkName: notFound' */ '@/views/NotFoundPage.vue')
+  }
 ];
 
 const router = new VueRouter({
