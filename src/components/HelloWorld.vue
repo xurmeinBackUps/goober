@@ -12,7 +12,7 @@
 
       <v-col class="mb-4">
         <h1 class="display-2 font-weight-bold mb-3">
-          {{ msg }}
+          {{ quotation }}
         </h1>
 
        <TestInput />
@@ -157,7 +157,7 @@ export default {
   }),
 
   props: {
-    msg: String
+    quotation: String
   },
 
 };
