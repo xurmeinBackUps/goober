@@ -1,11 +1,11 @@
 <template>
-  <div class="row">
-    <div class="row">
+  <v-row>
+
       <h1
         class="col s12"
         :class="$style.headingText"
       >OH NOES!</h1>
-    </div>
+
     <p
       class="col s6"
       :class="$style.statusText"
@@ -14,7 +14,7 @@
       class="col s6"
       :class="$style.policyText"
     >Return to the <router-link :to="{ name: 'Home' }">home page</router-link>, and try again.</p>
-  </div>
+  </v-row>
 </template>
 
 <script>
@@ -24,7 +24,7 @@ export default {
 </script>
 
 <style module>
-/* demonstrating use +implementation of Vue-based CSS modules  */
+/* demonstrating use & implementation of Vue-based CSS modules  */
 .headingText {
   /* using camel case for more javascript-ey access to Vue $style object */
   font-size: 48px;

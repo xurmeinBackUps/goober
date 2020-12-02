@@ -8,22 +8,22 @@ const routes = [
     path: '/',
     name: 'Home',
     component: () => import(/* webpackChunkName: "home" */ '@/views/HomePage.vue'),
-                      // this ^^^^^ is a magic comment foe webpack
+                      // this ^^^^^ is a magic comment for webpack
 
   },
   {
-    path: '/posts',
-    name: 'PostIndex',
+    path: '/lessons',
+    name: 'LessonIndex',
     // route level code-splitting
-    // this generates a separate chunk (posts.[hash].js) for this route
+    // this generates a separate chunk (lesson.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "postIndex" */ '@/views/PostIndexPage.vue'),
+    component: () => import(/* webpackChunkName: "lessonIndex" */ '@/views/LessonIndexPage.vue'),
     props: true,
   },
   {
-    path: '/posts/:id',
-    name: 'PostShow',
-    component: () => import(/* webpackChunkName: "postShow" */ '@/views/PostShowPage.vue'),
+    path: '/lessons/:id',
+    name: 'LessonShow',
+    component: () => import(/* webpackChunkName: "lessontShow" */ '@/views/LessonShowPage.vue'),
     props: true
   },
   {
