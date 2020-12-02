@@ -29,7 +29,7 @@ const routes = [
   {
     path: '*', // <-- the wildcard route, catches urls not matching any preceding routes
     name: 'NotFound',
-    component: () => import(/* webpackChunkName: notFound' */ '@/views/NotFoundPage.vue')
+    component: () => import(/* webpackChunkName: "notFound" */ '@/views/NotFoundPage.vue')
   }
 ];
 

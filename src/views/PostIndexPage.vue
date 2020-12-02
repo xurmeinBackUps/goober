@@ -1,17 +1,14 @@
 <template>
-  <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="post-index">
+    <h1>This is <code>/views/PostIndexPage.vue</code></h1>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
-
 export default {
-  name: 'VHome',
+  name: 'PostIndexPage',
   components: {
-    HelloWorld,
+
   },
 };
 </script>

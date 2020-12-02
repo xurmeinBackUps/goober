@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-container>
-      <TheNavbar />
+      <TheNavbar/>
       <v-main>
         <router-view/>
       </v-main>
@@ -24,3 +24,9 @@ export default {
   }),
 };
 </script>
+
+<style lang="scss">
+.ks-goober-app {
+  contain: content;
+}
+</style>
