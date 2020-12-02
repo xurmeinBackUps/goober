@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import TheNavbar from '@/components/TheNavbar.vue';
+import TheNavbar from '@/components/shared/TheNavbar.vue';
 
 export default {
   name: 'AppRoot',
@@ -25,9 +25,3 @@ export default {
   
 };
 </script>
-
-<style lang="scss">
-.ks-goober-app {
-  contain: content;
-}
-</style>

@@ -1,14 +1,14 @@
 <template>
    <v-app-bar
       app
-      color="blue-grey darken-4"
+      color="deep-purple accent-2"
     >
       <div class="d-flex align-center">
         <v-img
           alt="Vue Logo"
           class="shrink mr-2"
           contain
-          :src="require('../assets/vue_logo.png')"
+          :src="require('@/assets/vue_logo.png')"
           transition="scale-transition"
           width="40"
         />

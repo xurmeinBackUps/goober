@@ -1,19 +1,16 @@
 <template>
-  <v-row>
-
-      <h1
-        class="col s12"
-        :class="$style.headingText"
-      >OH NOES!</h1>
-
-    <p
-      class="col s6"
-      :class="$style.statusText"
-    >You have become lost!</p>
-    <p
-      class="col s6"
-      :class="$style.policyText"
-    >Return to the <router-link :to="{ name: 'Home' }">home page</router-link>, and try again.</p>
+  <v-row class="text-center">
+      <v-card>
+      <h1 :class="$style.headingText">
+        OH NOES!
+      </h1>
+      <p :class="$style.statusText">
+        You have become lost!
+      </p>
+      <p :class="$style.policyText">
+        Return to the <router-link :to="{ name: 'Home' }">home page</router-link>, and try again.
+      </p>
+      </v-card>
   </v-row>
 </template>
 

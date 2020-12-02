@@ -9,7 +9,6 @@ const routes = [
     name: 'Home',
     component: () => import(/* webpackChunkName: "home" */ '@/views/HomePage.vue'),
                       // this ^^^^^ is a magic comment for webpack
-
   },
   {
     path: '/lessons',
