@@ -1,16 +1,17 @@
 <template>
-   <v-app-bar
+   <v-system-bar
       app
-      color="deep-purple accent-2"
+      height="fit-content"
+      theme="dark"
     >
       <div class="d-flex align-center">
         <v-img
           alt="Vue Logo"
-          class="shrink mr-2"
+          class="shrink my-1"
           contain
-          :src="require('@/assets/vue_logo.png')"
+          :src="require('@/assets/xsell_logo.svg')"
           transition="scale-transition"
-          width="40"
+          width="60"
         />
       </div>
 
@@ -24,12 +25,12 @@
         <span class="mr-2">Latest Release</span>
         <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
-    </v-app-bar>
+    </v-system-bar>
 </template>
 
 <script>
 export default {
-  name: 'TheNavbar',
+  name: 'TheSystemBar',
 
 };
 </script>

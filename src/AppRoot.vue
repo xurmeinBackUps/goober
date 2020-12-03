@@ -1,7 +1,8 @@
 <template>
   <v-app>
-    <v-container>
-      <TheNavbar />
+      <TheSystemBar />
+      <TheNavDrawer />
+    <v-container fluid>
       <v-main>
         <router-view/>
       </v-main>
@@ -10,13 +11,15 @@
 </template>
 
 <script>
-import TheNavbar from '@/components/shared/TheNavbar.vue';
+import TheSystemBar from '@/components/shared/TheSystemBar.vue';
+import TheNavDrawer from '@/components/shared/TheNavDrawer.vue';
 
 export default {
   name: 'AppRoot',
 
   components: {
-    TheNavbar,
+    TheSystemBar,
+    TheNavDrawer,
   },
 
   data: () => ({
