@@ -8,15 +8,16 @@
           contain
           height="200"
         />
+
+        <h3>{{ quotation }}</h3>
+
+        <LessonsList :lessons="lessons"/>
       </v-col>
 
-      <v-col class="mb-4">
-        <h3 class="">
-          {{ quotation }}
-        </h3>
+
+
 
        <TestInput />
-      </v-col>
 
      
     </v-row>
@@ -24,19 +25,22 @@
 </template>
 
 <script>
+import LessonsList from './LessonsList.vue';
 import TestInput from './TestInput.vue';
-import testData from '@/data.json'
-console.log(testData)
+import testData from '@/data.json';
 
 export default {
   name: 'HelloWorld',
 
   components: {
     TestInput,
+    LessonsList
   },
 
   data: () => ({
-    // ...this.testData
+    lessons: testData.lessons,
+    messages: testData.messages,
+    users: testData.users
   }),
 
   props: {

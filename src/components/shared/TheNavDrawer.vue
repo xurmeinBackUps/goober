@@ -27,18 +27,18 @@
 
       <v-list>
         <v-list-item
-          v-for="item in items"
-          :key="item.title"
+          v-for="link in links"
+          :key="link.title"
           class="px-2"
         >
           <v-list-item-icon>
-        <v-btn icon :to="{ name: item.path }">
-            <v-icon>{{ item.icon }}</v-icon>
+        <v-btn icon :to="{ name: link.path }">
+            <v-icon>{{ link.icon }}</v-icon>
         </v-btn>
           </v-list-item-icon>
 
           <v-list-item-content v-if="!mini">
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
+            <v-list-item-title>{{ link.title }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -61,7 +61,7 @@ export default {
   data () {
       return {
         drawer: true,
-        items: [
+        links: [
           { title: 'Home', icon: 'mdi-home-city', path: 'Home' },
           { title: 'Lessons', icon: 'mdi-bookshelf', path: 'LessonIndex' },
           { title: 'Temporary', icon: 'mdi-badge-account-horizontal', path: 'LessonShow' },
@@ -70,5 +70,6 @@ export default {
         mini: true,
       }
     },
+    
 }
 </script>
