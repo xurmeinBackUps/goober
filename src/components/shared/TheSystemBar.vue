@@ -2,7 +2,6 @@
    <v-system-bar
       app
       height="fit-content"
-      theme="dark"
     >
       <div class="d-flex align-center">
         <v-img

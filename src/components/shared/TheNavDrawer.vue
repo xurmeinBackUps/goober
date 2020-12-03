@@ -4,7 +4,8 @@
     :mini-variant.sync="mini"
     permanent
     app
-    color="teal"
+    color="secondary"
+    width="fit-content"
   >
 
        <v-list-item class="px-2">
@@ -28,12 +29,15 @@
         <v-list-item
           v-for="item in items"
           :key="item.title"
+          class="px-2"
         >
           <v-list-item-icon>
+        <v-btn icon :to="{ name: item.path }">
             <v-icon>{{ item.icon }}</v-icon>
+        </v-btn>
           </v-list-item-icon>
 
-          <v-list-item-content>
+          <v-list-item-content v-if="!mini">
             <v-list-item-title>{{ item.title }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
@@ -53,14 +57,15 @@
 
 <script>
 export default {
-  name: 'TheNavigationDrawer',
+  name: 'TheNavDrawer',
   data () {
       return {
         drawer: true,
         items: [
-          { title: 'Home', icon: 'mdi-home-city' },
-          { title: 'My Account', icon: 'mdi-account' },
-          { title: 'Users', icon: 'mdi-account-group-outline' },
+          { title: 'Home', icon: 'mdi-home-city', path: 'Home' },
+          { title: 'Lessons', icon: 'mdi-bookshelf', path: 'LessonIndex' },
+          { title: 'Temporary', icon: 'mdi-badge-account-horizontal', path: 'LessonShow' },
+          { title: 'About', icon: 'mdi-information', path: 'About' },
         ],
         mini: true,
       }

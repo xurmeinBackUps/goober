@@ -11,6 +11,11 @@ const routes = [
                       // this ^^^^^ is a magic comment for webpack
   },
   {
+    path: '/about',
+    name: 'About',
+    component: () => import(/* webpackChunkName: "about" */ '@/views/AboutPage.vue'),
+  },
+  {
     path: '/lessons',
     name: 'LessonIndex',
     // route level code-splitting
@@ -22,7 +27,7 @@ const routes = [
   {
     path: '/lessons/:id',
     name: 'LessonShow',
-    component: () => import(/* webpackChunkName: "lessontShow" */ '@/views/LessonShowPage.vue'),
+    component: () => import(/* webpackChunkName: "lessonShow" */ '@/views/LessonShowPage.vue'),
     props: true
   },
   {
