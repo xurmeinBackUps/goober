@@ -3,18 +3,17 @@ import firebase from 'firebase/app';
 import 'firebase/database';
 import { rtdbPlugin } from 'vuefire';
 
-
 Vue.use(rtdbPlugin);
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyCjLa1mDCm29g2XMHIOYMM2spgS07d9Hsc',
-  authDomain: 'goober-rt-db.firebaseapp.com',
-  databaseURL: 'https://goober-rt-db.firebaseio.com',
-  projectId: 'goober-rt-db',
-  storageBucket: 'goober-rt-db.appspot.com',
-  messagingSenderId: '1048970415455',
-  appId: '1:1048970415455:web:8f881c63458229897e7aea',
-  measurementId: 'G-XH8DFS1JYR',
+  apiKey: process.env.VUE_APP_API_KEY,
+  authDomain: process.env.VUE_APP_AUTH_DOMAIN,
+  databaseURL: process.env.VUE_APP_DB_URL,
+  projectId: process.env.VUE_APP_PROJECT_ID,
+  storageBucket: process.env.VUE_APP_STOREAGE_BUCKET,
+  messagingSenderId: process.env.VUE_APP_MESSAGING_SENDER_ID,
+  appId: process.env.VUE_APP_APP_ID,
+  measurementId: process.env.VUE_APP_MEASUREMENT_ID,
 };
 
 const db = firebase.initializeApp({
