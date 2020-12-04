@@ -1,6 +1,7 @@
 <template>
   <v-col cols="12">
     <h1>{{ subject.name }}</h1>
+
     <SubjectListItem :subject="subject" />
   </v-col>
 </template>

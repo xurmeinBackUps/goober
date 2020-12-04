@@ -4,7 +4,7 @@
     <v-container>
       <h2>{{ lesson.name }}</h2>
       <p>{{ lesson.description }}</p>
-      <LessonDiscussionContainer :discussion="discussion"/>
+      <LessonDiscussionContainer :discussion="lessonDiscussion"/>
     </v-container>
   </div>
 </template>
@@ -29,9 +29,10 @@ export default {
     }
   },
   computed: {
-    discussion: function() {
+    lessonDiscussion: function() {
 
-      return this.lesson.discussionId
+      return Object.values(this.$store.state.discussions)
+        .filter(discussion => discussion.lessonId === this.id)
 
     }
   }

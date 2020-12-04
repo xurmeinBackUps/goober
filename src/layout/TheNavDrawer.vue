@@ -64,7 +64,7 @@ export default {
         links: [
           { title: 'Home', icon: 'mdi-home-city', path: 'Home' },
           { title: 'Lessons', icon: 'mdi-bookshelf', path: 'LessonIndex' },
-          { title: 'Temporary', icon: 'mdi-badge-account-horizontal', path: 'LessonShow' },
+          // { title: 'Profile', icon: 'mdi-badge-account-horizontal', path: '' },
           { title: 'About', icon: 'mdi-information', path: 'About' },
         ],
         mini: this.$store.state.mini,
