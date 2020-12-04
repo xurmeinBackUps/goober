@@ -2,11 +2,11 @@
   <v-app>
       <TheSystemBar />
       <TheNavDrawer />
-    <v-container fluid>
+
       <v-main app>
         <router-view/>
       </v-main>
-    </v-container>
+
   </v-app>
 </template>
 

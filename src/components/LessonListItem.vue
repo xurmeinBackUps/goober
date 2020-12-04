@@ -4,7 +4,7 @@
     :key="lesson['.key']"
   >
     <router-link :to="{name: 'LessonShow', params: {id: lesson['.key']}}">
-      {{ lesson.title }}
+      {{ lesson.name }}
     </router-link>
   </v-list-item>
 </template>
