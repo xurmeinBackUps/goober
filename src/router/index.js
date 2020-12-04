@@ -15,7 +15,7 @@ const routes = [
   {
     path: '/subject/:id',
     name: 'SubjectShow',
-    component: () => import(/* webpackChunkName: "subjectShow" */ '@/views/SubjectShowPage.vue'),
+    component: () => import(/* webpackChunkName: "subject" */ '@/views/SubjectShowPage.vue'),
     props: true
   },
   {
@@ -30,7 +30,7 @@ const routes = [
   {
     path: '/lessons/:id',
     name: 'LessonShow',
-    component: () => import(/* webpackChunkName: "lessonShow" */ '@/views/LessonShowPage.vue'),
+    component: () => import(/* webpackChunkName: "lesson" */ '@/views/LessonShowPage.vue'),
     props: true
   },
   {

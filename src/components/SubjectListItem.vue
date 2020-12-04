@@ -28,7 +28,7 @@ export default {
   computed: {
     subjectLessons () {
       return Object.values(this.$store.state.lessons)
-        .filter(lesson => lesson.subjecId === this.subject['.key'])
+        .filter(lesson => lesson.subjectId === this.subject['.key'])
     }
   }
 }
