@@ -15,9 +15,7 @@ export default {
   components: {
     LessonListItem
   },
-  props: {
-    lesson: Object
-  },
+
   data: function() {
     return {
       lessons: this.$store.state.lessons

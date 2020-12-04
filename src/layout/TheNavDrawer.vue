@@ -67,7 +67,7 @@ export default {
           { title: 'Temporary', icon: 'mdi-badge-account-horizontal', path: 'LessonShow' },
           { title: 'About', icon: 'mdi-information', path: 'About' },
         ],
-        mini: true,
+        mini: this.$store.state.mini,
       }
     },
     

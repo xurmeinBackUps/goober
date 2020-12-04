@@ -4,18 +4,18 @@
     <v-container>
       <h2>{{ lesson.name }}</h2>
       <p>{{ lesson.description }}</p>
-      <DiscussionList :discussions="discussions" />
+      <LessonDiscussionContainer :discussion="discussion"/>
     </v-container>
   </div>
 </template>
 
 <script>
-import DiscussionList from '@/components/DiscussionList.vue'
+import LessonDiscussionContainer from '@/components/LessonDiscussionContainer.vue'
 
 export default {
   name: 'LessonShowPage',
   components: {
-    DiscussionList
+    LessonDiscussionContainer
   },
   props: {
     id: {
@@ -29,10 +29,10 @@ export default {
     }
   },
   computed: {
-    discussions: function() {
-      const discussionIds = Object.values(this.lesson.discussions)
-      return Object.values(this.$store.state.discussions)
-        .filter(discussion => discussionIds.includes(discussion['.key']))
+    discussion: function() {
+
+      return this.lesson.discussionId
+
     }
   }
 };

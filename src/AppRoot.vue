@@ -1,11 +1,11 @@
 <template>
   <v-app>
-      <TheSystemBar />
-      <TheNavDrawer />
+    <TheSystemBar />
+    <TheNavDrawer />
 
-      <v-main app>
-        <router-view/>
-      </v-main>
+    <v-main app>
+      <router-view/>
+    </v-main>
 
   </v-app>
 </template>

@@ -19,8 +19,6 @@ export default {
   data () {
     return {
       subjects: Object.values(this.$store.state.subjects),
-    // messages: Object.values(this.$store.state.messages),
-    // users: Object.values(this.$store.state.categories)
     }
   },
 };

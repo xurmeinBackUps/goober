@@ -35,170 +35,56 @@
     "-KpOx5Y4AqRr3sB4Ybwj": {
       "subjectId": "-KpR7vRkiRPpbUd_TVAR",
       "description": "Important announcements about the lesson.",
-      "lastMessageId": "-KxxU6bYWl-6Xnu9g-56",
+
       "name": "Announcements",
       "slug": "announcements",
-      "discussions": {
-        "-KvgjI6bfbWYlbYV5ndr": "-KvgjI6bfbWYlbYV5ndr"
-      },
+      "discussionId": "-KvgjI6bfbWYlbYV5ndr",
       ".key": "-KpOx5Y4AqRr3sB4Ybwj"
     },
     "-KsjO4_W3W9Q2Z2UmuPr": {
       "subjectId": "-KpR7vRkiRPpbUd_TVAR",
       "description": "Ask your questions and drop your feedback here",
-      "lastMessageId": "-Kt2tjFsLkYONW35Or8c",
+
       "name": "Questions & Feedback",
       "slug": "questions-and-feedback",
-      "discussions": {
-        "-KsjpzIeFTdcsBIPvUfP": "-KsjpzIeFTdcsBIPvUfP"
-      },
+      "discussionId": "-KsjpzIeFTdcsBIPvUfP",
       ".key": "-KsjO4_W3W9Q2Z2UmuPr"
     },
     "-KsjPat5MWCx-dkjNVg8": {
       "subjectId": "-KsjPKA6hDuHlQK_lJWO",
       "description": "All things pet related",
-      "lastMessageId": "-Kxx_kFpMHmonma6v_dW",
+
       "name": "Pets",
       "slug": "pets-discussions",
-      "discussions": {
-        "-KsjWehQ--apjDBwSBCY": "-KsjWehQ--apjDBwSBCY",
-        "-Ksjv9T5uc5wP1BH2g7O": "-Ksjv9T5uc5wP1BH2g7O",
-        "-KsjwU_A01lZRcljDlOp": "-KsjwU_A01lZRcljDlOp",
-        "-KvcwywxaxxIfsHR88wa": "-KvcwywxaxxIfsHR88wa"
-      },
+      "discussionId": "-KsjWehQ--apjDBwSBCY",
       ".key": "-KsjPat5MWCx-dkjNVg8"
     },
     "-KsjPjasLh0TFtZmffEo": {
       "subjectId": "-KsjPKA6hDuHlQK_lJWO",
       "description": "Petrol head? This is your section",
-      "lastMessageId": "-KvggXxCEyQQlq6Z3gn0",
+
       "name": "Vehicles",
       "slug": "vehicles",
-      "discussions": {
-        "-KvgL0BNLNz4cJhQjdP4": "-KvgL0BNLNz4cJhQjdP4",
-        "-KvgOAeYDKON22qBjHWQ": "-KvgOAeYDKON22qBjHWQ",
-        "-KvgWYb4YkaFCfCzA_Cj": "-KvgWYb4YkaFCfCzA_Cj",
-        "-Kvgb3soiG4TmOZ7I_xl": "-Kvgb3soiG4TmOZ7I_xl",
-        "-KvgeSqPO7yMjOPbSYB1": "-KvgeSqPO7yMjOPbSYB1",
-        "-KvggPpwnevwqHunhXy8": "-KvggPpwnevwqHunhXy8"
-      },
+      "discussionId": "-KvgL0BNLNz4cJhQjdP4",
       ".key": "-KsjPjasLh0TFtZmffEo"
     },
     "-Kvclvu_Qd9QdS9ciqUl": {
       "subjectId": "-KvclpNRjpI5W-j0JQGU",
       "description": "Jokes & punchlines",
-      "lastMessageId": "-KxxMMqcs7LiaJKB_u6D",
+
       "name": "Jokes",
       "slug": "jokes",
-      "discussions": {
-        "-KvctYeu0_BpWh28-98g": "-KvctYeu0_BpWh28-98g",
-        "-KvcyXMXqay-tm4mSboW": "-KvcyXMXqay-tm4mSboW",
-        "-Kvfz9ELFDiz_50c1axQ": "-Kvfz9ELFDiz_50c1axQ"
-      },
+      "discussionId": "-KvctYeu0_BpWh28-98g",
       ".key": "-Kvclvu_Qd9QdS9ciqUl"
     },
     "-KvcmOcppNYK8NCesmB9": {
       "subjectId": "-KvclpNRjpI5W-j0JQGU",
       "description": "The big ol' meme lesson",
-      "lastMessageId": "-Kvcpl2lxtVztykr82Bv",
+
       "name": "Memes",
       "slug": "memes",
-      "discussions": {
-        "-KvcmrN1WpXOUp1yWrJc": "-KvcmrN1WpXOUp1yWrJc"
-      },
+      "discussionId": "-KvcmrN1WpXOUp1yWrJc",
       ".key": "-KvcmOcppNYK8NCesmB9"
-    },
-    "-Kvd1Vg_ankLYgrxC50F": {
-      "subjectId": "-KsjPKA6hDuHlQK_lJWO",
-      "description": "",
-      "lessons": {
-        "-Kvd1cMV_d3tsaxaehZN": "-Kvd1cMV_d3tsaxaehZN",
-        "-Kvd1k_bwZG9xSLkMfUt": "-Kvd1k_bwZG9xSLkMfUt",
-        "-Kvd22XESQmixAd-1XE1": "-Kvd22XESQmixAd-1XE1",
-        "-Kvd27XTayj4syOO56Qm": "-Kvd27XTayj4syOO56Qm"
-      },
-      "lastMessageId": "-Kvgi7kwtMGggjy3hRPO",
-      "name": "Fishing",
-      "slug": "fishing",
-      "discussions": {
-        "-Kvgi7kwtMGggjy3hRPN": "-Kvgi7kwtMGggjy3hRPN"
-      },
-      ".key": "-Kvd1Vg_ankLYgrxC50F"
-    },
-    "-Kvd1cMV_d3tsaxaehZN": {
-      "description": "",
-      "name": "Freshwater",
-      "parentId": "-Kvd1Vg_ankLYgrxC50F",
-      "slug": "freshwater-fishing",
-      ".key": "-Kvd1cMV_d3tsaxaehZN"
-    },
-    "-Kvd1k_bwZG9xSLkMfUt": {
-      "description": "",
-      "lastMessageId": "-Kvd3TvfJogbWreitADe",
-      "name": "Saltwater",
-      "parentId": "-Kvd1Vg_ankLYgrxC50F",
-      "slug": "saltwater-fishing",
-      "discussions": {
-        "-Kvd3TvfJogbWreitADd": "-Kvd3TvfJogbWreitADd"
-      },
-      ".key": "-Kvd1k_bwZG9xSLkMfUt"
-    },
-    "-Kvd22XESQmixAd-1XE1": {
-      "description": "",
-      "lastMessageId": "-Kvfw0huq0j2O00bOiWd",
-      "name": "Underwater",
-      "parentId": "-Kvd1Vg_ankLYgrxC50F",
-      "slug": "underwater-fishing",
-      "discussions": {
-        "-KvdBp4adHJpppQWc3sI": "-KvdBp4adHJpppQWc3sI"
-      },
-      ".key": "-Kvd22XESQmixAd-1XE1"
-    },
-    "-Kvd27XTayj4syOO56Qm": {
-      "description": "Something smells phishy!",
-      "name": "Phishing",
-      "parentId": "-Kvd1Vg_ankLYgrxC50F",
-      "slug": "phishing",
-      ".key": "-Kvd27XTayj4syOO56Qm"
-    },
-    "-KvdCowY9mDvM0EH8Pvs": {
-      "subjectId": "-KsjPKA6hDuHlQK_lJWO",
-      "description": "Discuss your passion for food and cooking",
-      "lessons": {
-        "-KvfwiQYlnPXtzsDfkGZ": "-KvfwiQYlnPXtzsDfkGZ"
-      },
-      "lastMessageId": "-KvhjGrRB9SpbH67jqbq",
-      "name": "Cooking",
-      "slug": "cooking",
-      "discussions": {
-        "-KvdDmJtvxFMHECuKKLW": "-KvdDmJtvxFMHECuKKLW",
-        "-KvggzbFFFwafR2UV2PO": "-KvggzbFFFwafR2UV2PO",
-        "-KvhfY9Xq81wRkrWOl1_": "-KvhfY9Xq81wRkrWOl1_",
-        "-KvhfofpGQZDLljV52k4": "-KvhfofpGQZDLljV52k4",
-        "-KvhgwEcF6xG6Ovmqedl": "-KvhgwEcF6xG6Ovmqedl",
-        "-Kvhj8GxcZOvvNrWCK-W": "-Kvhj8GxcZOvvNrWCK-W"
-      },
-      ".key": "-KvdCowY9mDvM0EH8Pvs"
-    },
-    "-KvfwiQYlnPXtzsDfkGZ": {
-      "description": "Recipes, Guides and Tips & Tricks",
-      "lastMessageId": "-KxxZn1egW-9INEREC2K",
-      "name": "Recipes",
-      "parentId": "-KvdCowY9mDvM0EH8Pvs",
-      "slug": "cooking-recipes",
-      "discussions": {
-        "-KvfyDwSUGBojOO4OKyX": "-KvfyDwSUGBojOO4OKyX",
-        "-KxxSma_8IeF6kjukwnu": "-KxxSma_8IeF6kjukwnu",
-        "-KxxSnNltjgIvlwAjmW8": "-KxxSnNltjgIvlwAjmW8"
-      },
-      ".key": "-KvfwiQYlnPXtzsDfkGZ"
-    },
-    "-KvhkEl6F673igPtnbso": {
-      "subjectId": "-KsjPKA6hDuHlQK_lJWO",
-      "description": "The lesson for anything",
-      "name": "Miscellaneous",
-      "slug": "miscellaneous",
-      ".key": "-KvhkEl6F673igPtnbso"
     }
   },
   "moderators": {
@@ -934,7 +820,7 @@
     "usersCount": 14,
     "usersOnline": 0
   },
-  "discussions": {
+  "discussions":{
     "-KsjWehQ--apjDBwSBCY": {
       "contributors": {
         "FsCDAk9w8NeXEceLV87arpsXjnQ2": "FsCDAk9w8NeXEceLV87arpsXjnQ2",
@@ -944,7 +830,7 @@
       "firstMessageId": "-KsjWehQ--apjDBwSBCZ",
       "lessonId": "-KsjPat5MWCx-dkjNVg8",
       "lastMessageAt": 1504040497,
-      "lastMessageId": "-KsjnAAjzfpznUVh4DSa",
+
       "messages": {
         "-KsjWehQ--apjDBwSBCZ": "-KsjWehQ--apjDBwSBCZ",
         "-KsjefUiIuNkJieBc5Rq": "-KsjefUiIuNkJieBc5Rq",
@@ -966,7 +852,7 @@
       "firstMessageId": "-KsjpzIeFTdcsBIPvUfQ",
       "lessonId": "-KsjO4_W3W9Q2Z2UmuPr",
       "lastMessageAt": 1504377762,
-      "lastMessageId": "-Kt2tjFsLkYONW35Or8c",
+
       "messages": {
         "-KsjpzIeFTdcsBIPvUfQ": "-KsjpzIeFTdcsBIPvUfQ",
         "-KsjrmB3IBCu-u-09qQb": "-KsjrmB3IBCu-u-09qQb",
@@ -983,48 +869,6 @@
       "userId": "u4r8XCziZEWEXsj2UIKNHBoDh0n2",
       ".key": "-KsjpzIeFTdcsBIPvUfP"
     },
-    "-Ksjv9T5uc5wP1BH2g7O": {
-      "firstMessageId": "-Ksjv9T5uc5wP1BH2g7P",
-      "lessonId": "-KsjPat5MWCx-dkjNVg8",
-      "lastMessageAt": 1504042592,
-      "lastMessageId": "-Ksjv9T5uc5wP1BH2g7P",
-      "messages": {
-        "-Ksjv9T5uc5wP1BH2g7P": "-Ksjv9T5uc5wP1BH2g7P"
-      },
-      "publishedAt": 1504042592,
-      "slug": "what-animal-would-you-like-to-be",
-      "title": "What animal would you like to be?",
-      "userId": "L664y3qZSubDbT1R6npC0EEybJ73",
-      ".key": "-Ksjv9T5uc5wP1BH2g7O"
-    },
-    "-KsjwU_A01lZRcljDlOp": {
-      "contributors": {
-        "Miej9zSGMRZKDvMXzfxjVOyv3RF3": "Miej9zSGMRZKDvMXzfxjVOyv3RF3",
-        "VXjpr2WHa8Ux4Bnggym8QFLdv5C3": "VXjpr2WHa8Ux4Bnggym8QFLdv5C3",
-        "jUjmgCurRRdzayqbRMO7aTG9X1G2": "jUjmgCurRRdzayqbRMO7aTG9X1G2",
-        "jVa6Go6Nl1Urkag1R2p9CHTf4ny1": "jVa6Go6Nl1Urkag1R2p9CHTf4ny1",
-        "rpbB8C6ifrYmNDufMERWfQUoa202": "rpbB8C6ifrYmNDufMERWfQUoa202",
-        "u4r8XCziZEWEXsj2UIKNHBoDh0n2": "u4r8XCziZEWEXsj2UIKNHBoDh0n2"
-      },
-      "firstMessageId": "-KsjwU_A01lZRcljDlOq",
-      "lessonId": "-KsjPat5MWCx-dkjNVg8",
-      "lastMessageAt": 1509640561,
-      "lastMessageId": "-Kxx_kFpMHmonma6v_dW",
-      "messages": {
-        "-KsjwU_A01lZRcljDlOq": "-KsjwU_A01lZRcljDlOq",
-        "-KsjwhQb4AQUyXbWhItY": "-KsjwhQb4AQUyXbWhItY",
-        "-KsjxMazDmuyf0VMVbCG": "-KsjxMazDmuyf0VMVbCG",
-        "-KsjxWRiADCvcsvnL0Ds": "-KsjxWRiADCvcsvnL0Ds",
-        "-KtHbw4VIjNSdOsfOftO": "-KtHbw4VIjNSdOsfOftO",
-        "-Kxt1fwggVizCfCP5ybK": "-Kxt1fwggVizCfCP5ybK",
-        "-Kxx_kFpMHmonma6v_dW": "-Kxx_kFpMHmonma6v_dW"
-      },
-      "publishedAt": 1504042940,
-      "slug": "what-is-the-best-animal-joke-you-know",
-      "title": "What is the best animal joke you know?",
-      "userId": "u4r8XCziZEWEXsj2UIKNHBoDh0n2",
-      ".key": "-KsjwU_A01lZRcljDlOp"
-    },
     "-KvcmrN1WpXOUp1yWrJc": {
       "contributors": {
         "VXjpr2WHa8Ux4Bnggym8QFLdv5C3": "VXjpr2WHa8Ux4Bnggym8QFLdv5C3",
@@ -1033,7 +877,7 @@
       "firstMessageId": "-KvcmrN1WpXOUp1yWrJd",
       "lessonId": "-KvcmOcppNYK8NCesmB9",
       "lastMessageAt": 1507144960,
-      "lastMessageId": "-Kvcpl2lxtVztykr82Bv",
+
       "messages": {
         "-KvcmrN1WpXOUp1yWrJd": "-KvcmrN1WpXOUp1yWrJd",
         "-KvcojkZchtDWwKJh4Fs": "-KvcojkZchtDWwKJh4Fs",
@@ -1053,7 +897,7 @@
       "firstMessageId": "-KvctYeu0_BpWh28-98h",
       "lessonId": "-Kvclvu_Qd9QdS9ciqUl",
       "lastMessageAt": 1507146554,
-      "lastMessageId": "-KvcvqCbyYIBnaDP70Rp",
+
       "messages": {
         "-KvctYeu0_BpWh28-98h": "-KvctYeu0_BpWh28-98h",
         "-Kvctq1WiVDCH6umxdBI": "-Kvctq1WiVDCH6umxdBI",
@@ -1067,52 +911,11 @@
       "userId": "u4r8XCziZEWEXsj2UIKNHBoDh0n2",
       ".key": "-KvctYeu0_BpWh28-98g"
     },
-    "-KvcwywxaxxIfsHR88wa": {
-      "contributors": {
-        "L664y3qZSubDbT1R6npC0EEybJ73": "L664y3qZSubDbT1R6npC0EEybJ73"
-      },
-      "firstMessageId": "-KvcwywxaxxIfsHR88wb",
-      "lessonId": "-KsjPat5MWCx-dkjNVg8",
-      "lastMessageAt": 1507198435,
-      "lastMessageId": "-Kvg0kUf4Bg7zzeKzDdU",
-      "messages": {
-        "-KvcwywxaxxIfsHR88wb": "-KvcwywxaxxIfsHR88wb",
-        "-Kvg0kUf4Bg7zzeKzDdU": "-Kvg0kUf4Bg7zzeKzDdU"
-      },
-      "publishedAt": 1507146852,
-      "slug": "endangered-animals",
-      "title": "Endangered animals",
-      "userId": "L664y3qZSubDbT1R6npC0EEybJ73",
-      ".key": "-KvcwywxaxxIfsHR88wa"
-    },
-    "-KvcyXMXqay-tm4mSboW": {
-      "contributors": {
-        "L664y3qZSubDbT1R6npC0EEybJ73": "L664y3qZSubDbT1R6npC0EEybJ73",
-        "VXjpr2WHa8Ux4Bnggym8QFLdv5C3": "VXjpr2WHa8Ux4Bnggym8QFLdv5C3",
-        "u4r8XCziZEWEXsj2UIKNHBoDh0n2": "u4r8XCziZEWEXsj2UIKNHBoDh0n2"
-      },
-      "firstMessageId": "-KvcyXMXqay-tm4mSboX",
-      "lessonId": "-Kvclvu_Qd9QdS9ciqUl",
-      "lastMessageAt": 1507147888,
-      "lastMessageId": "-Kvd-w-TTMc3Wj-U5JFx",
-      "messages": {
-        "-KvcyXMXqay-tm4mSboX": "-KvcyXMXqay-tm4mSboX",
-        "-Kvcz27LxAZBHGjpw-CZ": "-Kvcz27LxAZBHGjpw-CZ",
-        "-KvcznR3t-85NHxtf--l": "-KvcznR3t-85NHxtf--l",
-        "-Kvd-bsFPb98Z7Y0iu62": "-Kvd-bsFPb98Z7Y0iu62",
-        "-Kvd-w-TTMc3Wj-U5JFx": "-Kvd-w-TTMc3Wj-U5JFx"
-      },
-      "publishedAt": 1507147259,
-      "slug": "batman-jokes",
-      "title": "Batman Jokes",
-      "userId": "jVa6Go6Nl1Urkag1R2p9CHTf4ny1",
-      ".key": "-KvcyXMXqay-tm4mSboW"
-    },
     "-Kvd3TvfJogbWreitADd": {
       "firstMessageId": "-Kvd3TvfJogbWreitADe",
       "lessonId": "-Kvd1k_bwZG9xSLkMfUt",
       "lastMessageAt": 1507148818,
-      "lastMessageId": "-Kvd3TvfJogbWreitADe",
+
       "messages": {
         "-Kvd3TvfJogbWreitADe": "-Kvd3TvfJogbWreitADe"
       },
@@ -1129,7 +932,7 @@
       "firstMessageId": "-KvdBp4adHJpppQWc3sJ",
       "lessonId": "-Kvd22XESQmixAd-1XE1",
       "lastMessageAt": 1507196933,
-      "lastMessageId": "-Kvfw0huq0j2O00bOiWd",
+
       "messages": {
         "-KvdBp4adHJpppQWc3sJ": "-KvdBp4adHJpppQWc3sJ",
         "-Kvfw0huq0j2O00bOiWd": "-Kvfw0huq0j2O00bOiWd"
@@ -1148,7 +951,7 @@
       "firstMessageId": "-KvdDmJtvxFMHECuKKLX",
       "lessonId": "-KvdCowY9mDvM0EH8Pvs",
       "lastMessageAt": 1507152011,
-      "lastMessageId": "-KvdFe4GnBBURhuRY5OZ",
+
       "messages": {
         "-KvdDmJtvxFMHECuKKLX": "-KvdDmJtvxFMHECuKKLX",
         "-KvdFThKmnsu9kXOlS3N": "-KvdFThKmnsu9kXOlS3N",
@@ -1169,7 +972,7 @@
       "firstMessageId": "-KvfyDwSUGBojOO4OKyY",
       "lessonId": "-KvfwiQYlnPXtzsDfkGZ",
       "lastMessageAt": 1507198631,
-      "lastMessageId": "-Kvg1VJ3aG_kB72Ps3FW",
+
       "messages": {
         "-KvfyDwSUGBojOO4OKyY": "-KvfyDwSUGBojOO4OKyY",
         "-KvfyiF5JP_DJ4HwRhRd": "-KvfyiF5JP_DJ4HwRhRd",
@@ -1181,24 +984,6 @@
       "userId": "7uVPJS9GHoftN58Z2MXCYDqmNAh2",
       ".key": "-KvfyDwSUGBojOO4OKyX"
     },
-    "-Kvfz9ELFDiz_50c1axQ": {
-      "contributors": {
-        "jUjmgCurRRdzayqbRMO7aTG9X1G2": "jUjmgCurRRdzayqbRMO7aTG9X1G2"
-      },
-      "firstMessageId": "-Kvfz9EMh1i8uvLRrEGz",
-      "lessonId": "-Kvclvu_Qd9QdS9ciqUl",
-      "lastMessageAt": 1509636791,
-      "lastMessageId": "-KxxMMqcs7LiaJKB_u6D",
-      "messages": {
-        "-Kvfz9EMh1i8uvLRrEGz": "-Kvfz9EMh1i8uvLRrEGz",
-        "-KxxMMqcs7LiaJKB_u6D": "-KxxMMqcs7LiaJKB_u6D"
-      },
-      "publishedAt": 1507197754,
-      "slug": "knock-knock-whos-there",
-      "title": "Knock Knock, who's there?",
-      "userId": "NnooaWj4KHVxbhKwO1pEdfaQDsD2",
-      ".key": "-Kvfz9ELFDiz_50c1axQ"
-    },
     "-KvgL0BNLNz4cJhQjdP4": {
       "contributors": {
         "7uVPJS9GHoftN58Z2MXCYDqmNAh2": "7uVPJS9GHoftN58Z2MXCYDqmNAh2",
@@ -1208,7 +993,7 @@
       "firstMessageId": "-KvgL0BNLNz4cJhQjdP5",
       "lessonId": "-KsjPjasLh0TFtZmffEo",
       "lastMessageAt": 1507204245,
-      "lastMessageId": "-KvgMuTyGARyASYZ-jyJ",
+
       "messages": {
         "-KvgL0BNLNz4cJhQjdP5": "-KvgL0BNLNz4cJhQjdP5",
         "-KvgM0hiRDPqJzuJgnLv": "-KvgM0hiRDPqJzuJgnLv",
@@ -1221,109 +1006,11 @@
       "userId": "f5xvKdIPQdSrUtT6i3UiHYttRXO2",
       ".key": "-KvgL0BNLNz4cJhQjdP4"
     },
-    "-KvgOAeYDKON22qBjHWQ": {
-      "contributors": {
-        "7uVPJS9GHoftN58Z2MXCYDqmNAh2": "7uVPJS9GHoftN58Z2MXCYDqmNAh2",
-        "VXjpr2WHa8Ux4Bnggym8QFLdv5C3": "VXjpr2WHa8Ux4Bnggym8QFLdv5C3"
-      },
-      "firstMessageId": "-KvgOAeYDKON22qBjHWR",
-      "lessonId": "-KsjPjasLh0TFtZmffEo",
-      "lastMessageAt": 1507206693,
-      "lastMessageId": "-KvgWFVq1pX_QbFmlG-5",
-      "messages": {
-        "-KvgOAeYDKON22qBjHWR": "-KvgOAeYDKON22qBjHWR",
-        "-KvgTpPYkAoq8WoSz46g": "-KvgTpPYkAoq8WoSz46g",
-        "-KvgWFVq1pX_QbFmlG-5": "-KvgWFVq1pX_QbFmlG-5"
-      },
-      "publishedAt": 1507204578,
-      "slug": "bmw-3-series",
-      "title": "BMW 3 Series",
-      "userId": "7uVPJS9GHoftN58Z2MXCYDqmNAh2",
-      ".key": "-KvgOAeYDKON22qBjHWQ"
-    },
-    "-KvgWYb4YkaFCfCzA_Cj": {
-      "contributors": {
-        "NnooaWj4KHVxbhKwO1pEdfaQDsD2": "NnooaWj4KHVxbhKwO1pEdfaQDsD2"
-      },
-      "firstMessageId": "-KvgWYb4YkaFCfCzA_Ck",
-      "lessonId": "-KsjPjasLh0TFtZmffEo",
-      "lastMessageAt": 1507209654,
-      "lastMessageId": "-KvggXxCEyQQlq6Z3gn0",
-      "messages": {
-        "-KvgWYb4YkaFCfCzA_Ck": "-KvgWYb4YkaFCfCzA_Ck",
-        "-KvggXxCEyQQlq6Z3gn0": "-KvggXxCEyQQlq6Z3gn0"
-      },
-      "publishedAt": 1507206773,
-      "slug": "do-you-know-what-fiat-stands-for",
-      "title": "Do you know what FIAT stands for?",
-      "userId": "7uVPJS9GHoftN58Z2MXCYDqmNAh2",
-      ".key": "-KvgWYb4YkaFCfCzA_Cj"
-    },
-    "-Kvgb3soiG4TmOZ7I_xl": {
-      "contributors": {
-        "7uVPJS9GHoftN58Z2MXCYDqmNAh2": "7uVPJS9GHoftN58Z2MXCYDqmNAh2"
-      },
-      "firstMessageId": "-Kvgb3soiG4TmOZ7I_xm",
-      "lessonId": "-KsjPjasLh0TFtZmffEo",
-      "lastMessageAt": 1507208324,
-      "lastMessageId": "-KvgbTO3-L9eOTzrxhs3",
-      "messages": {
-        "-Kvgb3soiG4TmOZ7I_xm": "-Kvgb3soiG4TmOZ7I_xm",
-        "-KvgbTO3-L9eOTzrxhs3": "-KvgbTO3-L9eOTzrxhs3"
-      },
-      "publishedAt": 1507208220,
-      "slug": "is-toyota-group-larger-than-volkswagen-ag",
-      "title": "Is Toyota Group larger than Volkswagen AG?",
-      "userId": "f5xvKdIPQdSrUtT6i3UiHYttRXO2",
-      ".key": "-Kvgb3soiG4TmOZ7I_xl"
-    },
-    "-KvgeSqPO7yMjOPbSYB1": {
-      "firstMessageId": "-KvgeSqPO7yMjOPbSYB2",
-      "lessonId": "-KsjPjasLh0TFtZmffEo",
-      "lastMessageAt": 1507209109,
-      "lastMessageId": "-KvgeSqPO7yMjOPbSYB2",
-      "messages": {
-        "-KvgeSqPO7yMjOPbSYB2": "-KvgeSqPO7yMjOPbSYB2"
-      },
-      "publishedAt": 1507209109,
-      "slug": "is-the-new-2017-nissan-leaf-any-good",
-      "title": "Is the new (2017) Nissan Leaf any good?",
-      "userId": "7uVPJS9GHoftN58Z2MXCYDqmNAh2",
-      ".key": "-KvgeSqPO7yMjOPbSYB1"
-    },
-    "-KvggPpwnevwqHunhXy8": {
-      "firstMessageId": "-KvggPpwnevwqHunhXy9",
-      "lessonId": "-KsjPjasLh0TFtZmffEo",
-      "lastMessageAt": 1507209621,
-      "lastMessageId": "-KvggPpwnevwqHunhXy9",
-      "messages": {
-        "-KvggPpwnevwqHunhXy9": "-KvggPpwnevwqHunhXy9"
-      },
-      "publishedAt": 1507209621,
-      "slug": "three-wheelers-hot-or-not",
-      "title": "Three-Wheelers, hot or not?",
-      "userId": "NnooaWj4KHVxbhKwO1pEdfaQDsD2",
-      ".key": "-KvggPpwnevwqHunhXy8"
-    },
-    "-KvggzbFFFwafR2UV2PO": {
-      "firstMessageId": "-KvggzbFFFwafR2UV2PP",
-      "lessonId": "-KvdCowY9mDvM0EH8Pvs",
-      "lastMessageAt": 1507209771,
-      "lastMessageId": "-KvggzbFFFwafR2UV2PP",
-      "messages": {
-        "-KvggzbFFFwafR2UV2PP": "-KvggzbFFFwafR2UV2PP"
-      },
-      "publishedAt": 1507209771,
-      "slug": "which-is-your-favorite-carbohydrate",
-      "title": "Which is your favorite carbohydrate? 🤓",
-      "userId": "NnooaWj4KHVxbhKwO1pEdfaQDsD2",
-      ".key": "-KvggzbFFFwafR2UV2PO"
-    },
     "-Kvgi7kwtMGggjy3hRPN": {
       "firstMessageId": "-Kvgi7kwtMGggjy3hRPO",
       "lessonId": "-Kvd1Vg_ankLYgrxC50F",
       "lastMessageAt": 1507210071,
-      "lastMessageId": "-Kvgi7kwtMGggjy3hRPO",
+
       "messages": {
         "-Kvgi7kwtMGggjy3hRPO": "-Kvgi7kwtMGggjy3hRPO"
       },
@@ -1332,128 +1019,6 @@
       "title": "What is the most exciting fish to catch from shore?",
       "userId": "NnooaWj4KHVxbhKwO1pEdfaQDsD2",
       ".key": "-Kvgi7kwtMGggjy3hRPN"
-    },
-    "-KvgjI6bfbWYlbYV5ndr": {
-      "contributors": {
-        "jUjmgCurRRdzayqbRMO7aTG9X1G2": "jUjmgCurRRdzayqbRMO7aTG9X1G2"
-      },
-      "firstMessageId": "-KvgjI6bfbWYlbYV5nds",
-      "lessonId": "-KpOx5Y4AqRr3sB4Ybwj",
-      "lastMessageAt": 1509638822,
-      "lastMessageId": "-KxxU6bYWl-6Xnu9g-56",
-      "messages": {
-        "-KvgjI6bfbWYlbYV5nds": "-KvgjI6bfbWYlbYV5nds",
-        "-KxxU6bYWl-6Xnu9g-56": "-KxxU6bYWl-6Xnu9g-56"
-      },
-      "publishedAt": 1507210375,
-      "slug": "message-reactions",
-      "title": "Message Reactions",
-      "userId": "ALXhxjwgY9PinwNGHpfai6OWyDu2",
-      ".key": "-KvgjI6bfbWYlbYV5ndr"
-    },
-    "-KvhfY9Xq81wRkrWOl1_": {
-      "firstMessageId": "-KvhfY9Xq81wRkrWOl1a",
-      "lessonId": "-KvdCowY9mDvM0EH8Pvs",
-      "lastMessageAt": 1507226169,
-      "lastMessageId": "-KvhfY9Xq81wRkrWOl1a",
-      "messages": {
-        "-KvhfY9Xq81wRkrWOl1a": "-KvhfY9Xq81wRkrWOl1a"
-      },
-      "publishedAt": 1507226169,
-      "slug": "egg-replacer-for-bread-dough",
-      "title": "Egg replacer for bread dough?",
-      "userId": "f5xvKdIPQdSrUtT6i3UiHYttRXO2",
-      ".key": "-KvhfY9Xq81wRkrWOl1_"
-    },
-    "-KvhfofpGQZDLljV52k4": {
-      "contributors": {
-        "VXjpr2WHa8Ux4Bnggym8QFLdv5C3": "VXjpr2WHa8Ux4Bnggym8QFLdv5C3"
-      },
-      "firstMessageId": "-Kvhfofql-5yAv3TxH2M",
-      "lessonId": "-KvdCowY9mDvM0EH8Pvs",
-      "lastMessageAt": 1507226322,
-      "lastMessageId": "-Kvhg7cQD_anWm8x-WYT",
-      "messages": {
-        "-Kvhfofql-5yAv3TxH2M": "-Kvhfofql-5yAv3TxH2M",
-        "-Kvhg7cQD_anWm8x-WYT": "-Kvhg7cQD_anWm8x-WYT"
-      },
-      "publishedAt": 1507226241,
-      "slug": "multifilling",
-      "title": "Multifilling",
-      "userId": "NnooaWj4KHVxbhKwO1pEdfaQDsD2",
-      ".key": "-KvhfofpGQZDLljV52k4"
-    },
-    "-KvhgwEcF6xG6Ovmqedl": {
-      "contributors": {
-        "NnooaWj4KHVxbhKwO1pEdfaQDsD2": "NnooaWj4KHVxbhKwO1pEdfaQDsD2",
-        "jVa6Go6Nl1Urkag1R2p9CHTf4ny1": "jVa6Go6Nl1Urkag1R2p9CHTf4ny1",
-        "u4r8XCziZEWEXsj2UIKNHBoDh0n2": "u4r8XCziZEWEXsj2UIKNHBoDh0n2"
-      },
-      "firstMessageId": "-KvhgwEcF6xG6Ovmqedm",
-      "lessonId": "-KvdCowY9mDvM0EH8Pvs",
-      "lastMessageAt": 1507226797,
-      "lastMessageId": "-KvhhwVAy5847Uvyw6rT",
-      "messages": {
-        "-KvhgwEcF6xG6Ovmqedm": "-KvhgwEcF6xG6Ovmqedm",
-        "-KvhhJEORgE9oljAwKOr": "-KvhhJEORgE9oljAwKOr",
-        "-KvhhSs4hYgi38l5XQ6i": "-KvhhSs4hYgi38l5XQ6i",
-        "-KvhhwVAy5847Uvyw6rT": "-KvhhwVAy5847Uvyw6rT"
-      },
-      "publishedAt": 1507226534,
-      "slug": "wasabi-vs-horseraddish",
-      "title": "Wasabi vs horseraddish?",
-      "userId": "jVa6Go6Nl1Urkag1R2p9CHTf4ny1",
-      ".key": "-KvhgwEcF6xG6Ovmqedl"
-    },
-    "-Kvhj8GxcZOvvNrWCK-W": {
-      "contributors": {
-        "VXjpr2WHa8Ux4Bnggym8QFLdv5C3": "VXjpr2WHa8Ux4Bnggym8QFLdv5C3"
-      },
-      "firstMessageId": "-Kvhj8GxcZOvvNrWCK-X",
-      "lessonId": "-KvdCowY9mDvM0EH8Pvs",
-      "lastMessageAt": 1507227147,
-      "lastMessageId": "-KvhjGrRB9SpbH67jqbq",
-      "messages": {
-        "-Kvhj8GxcZOvvNrWCK-X": "-Kvhj8GxcZOvvNrWCK-X",
-        "-KvhjGrRB9SpbH67jqbq": "-KvhjGrRB9SpbH67jqbq"
-      },
-      "publishedAt": 1507227112,
-      "slug": "how-can-i-chop-onions-without-crying",
-      "title": "How can i chop onions without crying?",
-      "userId": "u4r8XCziZEWEXsj2UIKNHBoDh0n2",
-      ".key": "-Kvhj8GxcZOvvNrWCK-W"
-    },
-    "-KxxSma_8IeF6kjukwnu": {
-      "firstMessageId": "-KxxSma_8IeF6kjukwnv",
-      "lessonId": "-KvfwiQYlnPXtzsDfkGZ",
-      "lastMessageAt": 1509638478,
-      "lastMessageId": "-KxxSma_8IeF6kjukwnv",
-      "messages": {
-        "-KxxSma_8IeF6kjukwnv": "-KxxSma_8IeF6kjukwnv"
-      },
-      "publishedAt": 1509638478,
-      "slug": "how-can-i-create-chemical-x",
-      "title": "How can I create Chemical X?",
-      "userId": "jUjmgCurRRdzayqbRMO7aTG9X1G2",
-      ".key": "-KxxSma_8IeF6kjukwnu"
-    },
-    "-KxxSnNltjgIvlwAjmW8": {
-      "contributors": {
-        "Miej9zSGMRZKDvMXzfxjVOyv3RF3": "Miej9zSGMRZKDvMXzfxjVOyv3RF3"
-      },
-      "firstMessageId": "-KxxSnNltjgIvlwAjmW9",
-      "lessonId": "-KvfwiQYlnPXtzsDfkGZ",
-      "lastMessageAt": 1509640311,
-      "lastMessageId": "-KxxZn1egW-9INEREC2K",
-      "messages": {
-        "-KxxSnNltjgIvlwAjmW9": "-KxxSnNltjgIvlwAjmW9",
-        "-KxxZn1egW-9INEREC2K": "-KxxZn1egW-9INEREC2K"
-      },
-      "publishedAt": 1509638478,
-      "slug": "how-can-i-create-chemical-x",
-      "title": "How can I create Chemical X?",
-      "userId": "jUjmgCurRRdzayqbRMO7aTG9X1G2",
-      ".key": "-KxxSnNltjgIvlwAjmW8"
     }
   },
   "users": {
@@ -1487,15 +1052,7 @@
         "-KvgeSqPO7yMjOPbSYB2": "-KvgeSqPO7yMjOPbSYB2"
       },
       "registeredAt": 1507148598,
-      "discussions": {
-        "-Kvd3TvfJogbWreitADd": "-Kvd3TvfJogbWreitADd",
-        "-KvdBp4adHJpppQWc3sI": "-KvdBp4adHJpppQWc3sI",
-        "-KvdDmJtvxFMHECuKKLW": "-KvdDmJtvxFMHECuKKLW",
-        "-KvfyDwSUGBojOO4OKyX": "-KvfyDwSUGBojOO4OKyX",
-        "-KvgOAeYDKON22qBjHWQ": "-KvgOAeYDKON22qBjHWQ",
-        "-KvgWYb4YkaFCfCzA_Cj": "-KvgWYb4YkaFCfCzA_Cj",
-        "-KvgeSqPO7yMjOPbSYB1": "-KvgeSqPO7yMjOPbSYB1"
-      },
+      "discussionId": "-Kvd3TvfJogbWreitADd",
       "username": "tunajoe",
       "usernameLower": "tunajoe",
       ".key": "7uVPJS9GHoftN58Z2MXCYDqmNAh2"
@@ -1514,11 +1071,7 @@
         "-KvgjI6bfbWYlbYV5nds": "-KvgjI6bfbWYlbYV5nds"
       },
       "registeredAt": 1504025541,
-      "discussions": {
-        "-KsjWehQ--apjDBwSBCY": "-KsjWehQ--apjDBwSBCY",
-        "-KvcmrN1WpXOUp1yWrJc": "-KvcmrN1WpXOUp1yWrJc",
-        "-KvgjI6bfbWYlbYV5ndr": "-KvgjI6bfbWYlbYV5ndr"
-      },
+      "discussionId": "-KsjWehQ--apjDBwSBCY",
       "twitter": "rahaugrahaugrahaugrahaugrahaugrahaugrahaugrahaugrahaugrahaug",
       "username": "rah",
       "usernameLower": "rah",
@@ -1563,10 +1116,7 @@
         "-Kvg1VJ3aG_kB72Ps3FW": "-Kvg1VJ3aG_kB72Ps3FW"
       },
       "registeredAt": 1504038437,
-      "discussions": {
-        "-Ksjv9T5uc5wP1BH2g7O": "-Ksjv9T5uc5wP1BH2g7O",
-        "-KvcwywxaxxIfsHR88wa": "-KvcwywxaxxIfsHR88wa"
-      },
+      "discussionId": "-Ksjv9T5uc5wP1BH2g7O",
       "username": "MrBurns",
       "usernameLower": "mrburns",
       ".key": "L664y3qZSubDbT1R6npC0EEybJ73"
@@ -1603,13 +1153,7 @@
         "-KvhhwVAy5847Uvyw6rT": "-KvhhwVAy5847Uvyw6rT"
       },
       "registeredAt": 1507196808,
-      "discussions": {
-        "-Kvfz9ELFDiz_50c1axQ": "-Kvfz9ELFDiz_50c1axQ",
-        "-KvggPpwnevwqHunhXy8": "-KvggPpwnevwqHunhXy8",
-        "-KvggzbFFFwafR2UV2PO": "-KvggzbFFFwafR2UV2PO",
-        "-Kvgi7kwtMGggjy3hRPN": "-Kvgi7kwtMGggjy3hRPN",
-        "-KvhfofpGQZDLljV52k4": "-KvhfofpGQZDLljV52k4"
-      },
+      "discussionId": "-Kvfz9ELFDiz_50c1axQ",
       "username": "raynathan",
       "usernameLower": "raynathan",
       ".key": "NnooaWj4KHVxbhKwO1pEdfaQDsD2"
@@ -1648,11 +1192,7 @@
         "-KvhfY9Xq81wRkrWOl1a": "-KvhfY9Xq81wRkrWOl1a"
       },
       "registeredAt": 1507203667,
-      "discussions": {
-        "-KvgL0BNLNz4cJhQjdP4": "-KvgL0BNLNz4cJhQjdP4",
-        "-Kvgb3soiG4TmOZ7I_xl": "-Kvgb3soiG4TmOZ7I_xl",
-        "-KvhfY9Xq81wRkrWOl1_": "-KvhfY9Xq81wRkrWOl1_"
-      },
+      "discussionId": "-KvgL0BNLNz4cJhQjdP4",
       "username": "tjax",
       "usernameLower": "tjax",
       ".key": "f5xvKdIPQdSrUtT6i3UiHYttRXO2"
@@ -1680,10 +1220,7 @@
         "-KxxU6bYWl-6Xnu9g-56": "-KxxU6bYWl-6Xnu9g-56"
       },
       "registeredAt": 1509564068,
-      "discussions": {
-        "-KxxSma_8IeF6kjukwnu": "-KxxSma_8IeF6kjukwnu",
-        "-KxxSnNltjgIvlwAjmW8": "-KxxSnNltjgIvlwAjmW8"
-      },
+      "discussionId": "-KxxSma_8IeF6kjukwnu",
       "username": "blossom",
       "usernameLower": "blossom",
       ".key": "jUjmgCurRRdzayqbRMO7aTG9X1G2"
@@ -1705,10 +1242,7 @@
         "-KvhhSs4hYgi38l5XQ6i": "-KvhhSs4hYgi38l5XQ6i"
       },
       "registeredAt": 1504042039,
-      "discussions": {
-        "-KvcyXMXqay-tm4mSboW": "-KvcyXMXqay-tm4mSboW",
-        "-KvhgwEcF6xG6Ovmqedl": "-KvhgwEcF6xG6Ovmqedl"
-      },
+      "discussionId": "-KvcyXMXqay-tm4mSboW",
       "username": "robin",
       "usernameLower": "robin",
       ".key": "jVa6Go6Nl1Urkag1R2p9CHTf4ny1"
@@ -1747,12 +1281,7 @@
         "-Kvhj8GxcZOvvNrWCK-X": "-Kvhj8GxcZOvvNrWCK-X"
       },
       "registeredAt": 1504041159,
-      "discussions": {
-        "-KsjpzIeFTdcsBIPvUfP": "-KsjpzIeFTdcsBIPvUfP",
-        "-KsjwU_A01lZRcljDlOp": "-KsjwU_A01lZRcljDlOp",
-        "-KvctYeu0_BpWh28-98g": "-KvctYeu0_BpWh28-98g",
-        "-Kvhj8GxcZOvvNrWCK-W": "-Kvhj8GxcZOvvNrWCK-W"
-      },
+      "discussionId": "-KsjpzIeFTdcsBIPvUfP",
       "username": "Joker",
       "usernameLower": "joker",
       ".key": "u4r8XCziZEWEXsj2UIKNHBoDh0n2"
