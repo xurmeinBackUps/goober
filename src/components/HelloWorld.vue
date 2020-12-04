@@ -1,18 +1,8 @@
 <template>
 
-    <v-row class="text-center">
-      <v-col cols="12">
-        <v-img
-          :src="require('../assets/peter_b_parker.jpg')"
-          class="my-3"
-          contain
-          height="200"
-        />
-
-        <h3>{{ quotation }}</h3>
-
-        <LessonsList :lessons="lessons"/>
-      </v-col>
+   <div>
+     <SpiderManCard quote="There's always a bypass a key, a virus key, a who-cares key; I can never remember, so I just call it a 'goober.' -- Peter B. Parker, Earth-616"/>
+        <LessonList :lessons="lessons"/>
 
 
 
@@ -20,32 +10,32 @@
        <TestInput />
 
      
-    </v-row>
+    </div>
 
 </template>
 
 <script>
-import LessonsList from './LessonsList.vue';
+import SpiderManCard from './shared/SpiderManCard'
+import LessonList from './LessonList.vue';
 import TestInput from './TestInput.vue';
-import testData from '@/data.json';
 
 export default {
   name: 'HelloWorld',
 
   components: {
     TestInput,
-    LessonsList
+    LessonList
   },
 
-  data: () => ({
-    lessons: testData.lessons,
-    messages: testData.messages,
-    users: testData.users
-  }),
-
-  props: {
-    quotation: String
+  data () {
+    return {
+      lessons: Object.values(this.$store.state.lessons),
+    // messages: Object.values(this.$store.state.messages),
+    // users: Object.values(this.$store.state.categories)
+    }
   },
+
+
 
 };
 </script>

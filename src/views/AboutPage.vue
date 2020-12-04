@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <OGHelloWorld quotation="There's always a bypass a key, a virus key, a who-cares key; I can never remember, so I just call it a 'goober.' -- Peter B. Parker, Earth-616"/>
+    <OGHelloWorld />
   </div>
 </template>
 
@@ -13,6 +13,5 @@ export default {
   components: {
     OGHelloWorld,
   },
-
 };
 </script>

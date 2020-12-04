@@ -1,27 +1,13 @@
 <template>
 
     <v-row class="text-center">
-      <v-col cols="12">
-        <v-img
-          :src="require('../assets/peter_b_parker.jpg')"
-          class="my-3"
-          contain
-          height="200"
-        />
-      </v-col>
-
-      <v-col class="mb-4">
-        <h3 class="">
-          {{ quotation }}
-        </h3>
-
-       <TestInput />
-      </v-col>
+      <SpiderManCard quote="There's always a bypass a key, a virus key, a who-cares key; I can never remember, so I just call it a 'goober.' -- Peter B. Parker, Earth-616"/>
 
       <v-col
         class="mb-5"
         cols="12"
       >
+       <TestInput />
         <h2 class="headline font-weight-bold mb-3">
           What's next?
         </h2>
@@ -94,6 +80,7 @@
 </template>
 
 <script>
+import SpiderManCard from './shared/SpiderManCard.vue';
 import TestInput from './TestInput.vue';
 
 export default {
@@ -101,6 +88,7 @@ export default {
 
   components: {
     TestInput,
+    SpiderManCard
   },
 
   data: () => ({
@@ -157,7 +145,7 @@ export default {
   }),
 
   props: {
-    quotation: String
+    quote: String
   },
 
 };

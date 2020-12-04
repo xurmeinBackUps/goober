@@ -13,10 +13,10 @@ const routes = [
 
   },
   {
-    path: '/about',
-    name: 'About',
-    component: () => import(/* webpackChunkName: "about" */ '@/views/AboutPage.vue'),
-    props:true
+    path: '/subject/:name',
+    name: 'SubjectShow',
+    component: () => import(/* webpackChunkName: "subjectShow" */ '@/views/SubjectShowPage.vue'),
+    props: true
   },
   {
     path: '/lessons',
@@ -32,6 +32,12 @@ const routes = [
     name: 'LessonShow',
     component: () => import(/* webpackChunkName: "lessonShow" */ '@/views/LessonShowPage.vue'),
     props: true
+  },
+  {
+    path: '/about',
+    name: 'About',
+    component: () => import(/* webpackChunkName: "about" */ '@/views/AboutPage.vue'),
+    props:true
   },
   {
     path: '*', // <-- the wildcard route, catches urls not matching any preceding routes

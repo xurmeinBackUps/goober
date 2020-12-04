@@ -1,9 +1,9 @@
 <template>
-  <v-app>
+  <v-app class="ks-goober-app">
       <TheSystemBar />
       <TheNavDrawer />
     <v-container fluid>
-      <v-main>
+      <v-main app>
         <router-view/>
       </v-main>
     </v-container>
@@ -28,3 +28,7 @@ export default {
   
 };
 </script>
+
+<style lang="scss">
+
+</style>

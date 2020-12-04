@@ -1,5 +1,5 @@
 <template>
-  <div class="presentation-show">
+  <div class="lesson-show">
     <h1>This is <code>/views/LessonShowPage.vue</code></h1>
   </div>
 </template>
