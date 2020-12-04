@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import SpiderManCard from './shared/SpiderManCard'
+import SpiderManCard from '@/layout/SpiderManCard'
 import LessonList from './LessonList.vue';
 import TestInput from './TestInput.vue';
 

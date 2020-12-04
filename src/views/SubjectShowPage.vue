@@ -1,7 +1,7 @@
 <template>
   <v-col cols="12">
     <h1>{{ subject.name }}</h1>
-    <SubjectListItem :subjectName="subjectName" />
+    <SubjectListItem :subject="subject" />
   </v-col>
 </template>
 
@@ -13,14 +13,14 @@ export default {
     SubjectListItem
   },
   props: {
-    subjectName: {
+    id: {
       required: true,
       type: String
     }
   },
   computed: {
     subject: function() {
-      return this.$store.state.subjects[this.subjectName]
+      return this.$store.state.subjects[this.id]
     }
   }
 }

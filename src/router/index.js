@@ -13,7 +13,7 @@ const routes = [
 
   },
   {
-    path: '/subject/:name',
+    path: '/subject/:id',
     name: 'SubjectShow',
     component: () => import(/* webpackChunkName: "subjectShow" */ '@/views/SubjectShowPage.vue'),
     props: true

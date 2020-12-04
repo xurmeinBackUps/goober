@@ -1,7 +1,7 @@
 <template>
   <v-card
     class="mx-auto"
-    max-width="50%"
+    width="75%"
   >
 
       <v-col cols="12">

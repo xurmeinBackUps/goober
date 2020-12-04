@@ -80,7 +80,7 @@
 </template>
 
 <script>
-import SpiderManCard from './shared/SpiderManCard.vue';
+import SpiderManCard from '@/layout/SpiderManCard.vue';
 import TestInput from './TestInput.vue';
 
 export default {

@@ -7,7 +7,7 @@
 
 <script>
 // @ is an alias to /src
-import SpiderManCard from '@/components/shared/SpiderManCard.vue'
+import SpiderManCard from '@/layout/SpiderManCard.vue'
 import SubjectList from '@/components/SubjectList.vue';
 
 export default {

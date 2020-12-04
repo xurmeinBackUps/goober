@@ -1,5 +1,5 @@
 <template>
-  <v-app class="ks-goober-app">
+  <v-app>
       <TheSystemBar />
       <TheNavDrawer />
     <v-container fluid>
@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import TheSystemBar from '@/components/shared/TheSystemBar.vue';
-import TheNavDrawer from '@/components/shared/TheNavDrawer.vue';
+import TheSystemBar from '@/layout/TheSystemBar.vue';
+import TheNavDrawer from '@/layout/TheNavDrawer.vue';
 
 export default {
   name: 'AppRoot',

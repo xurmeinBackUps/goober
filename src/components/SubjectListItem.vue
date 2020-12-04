@@ -2,7 +2,7 @@
   <div class="lesson-list">
 
     <h2 class="list-title">
-      <router-link :to="{name: 'Subject', params: {subjectId: subject.name}}">
+      <router-link :to="{name: 'SubjectShow', params: {id: subject['.key']}}">
         {{ subject.name }}
       </router-link>
     </h2>
@@ -28,7 +28,7 @@ export default {
   computed: {
     subjectLessons () {
       return Object.values(this.$store.state.lessons)
-        .filter(lesson => lesson.subjectId === this.subject.name)
+        .filter(lesson => lesson.subjecId === this.subject['.key'])
     }
   }
 }
