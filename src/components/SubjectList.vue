@@ -3,7 +3,7 @@
     <SubjectListItem
       v-for="subject in subjects"
       :subject="subject"
-      :key="subject['.key']"
+      :key="subject.name"
     />
   </div>
 </template>

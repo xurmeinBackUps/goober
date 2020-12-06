@@ -63,7 +63,7 @@ export default {
         drawer: true,
         links: [
           { title: 'Home', icon: 'mdi-home-city', path: 'Home' },
-          { title: 'Lessons', icon: 'mdi-bookshelf', path: 'LessonIndex' },
+          // { title: 'Lessons', icon: 'mdi-bookshelf', path: '' },
           // { title: 'Profile', icon: 'mdi-badge-account-horizontal', path: '' },
           { title: 'About', icon: 'mdi-information', path: 'About' },
         ],

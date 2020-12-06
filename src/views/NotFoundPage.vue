@@ -1,4 +1,8 @@
 <template>
+<v-container
+  app
+  class="404"
+>
   <v-row class="text-center">
       <v-card>
       <h1 :class="$style.headingText">
@@ -12,6 +16,7 @@
       </p>
       </v-card>
   </v-row>
+</v-container>
 </template>
 
 <script>

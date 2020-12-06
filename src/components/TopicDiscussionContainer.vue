@@ -9,14 +9,20 @@
 import MessageList from './MessageList.vue'
 
 export default {
-  name: 'LessonDiscussionContainer',
+  name: 'TopicDiscussionContainer',
   components: {
     MessageList
   },
-
+  props: {
+    // discussion: {
+    //   type: Array,
+    //   required: true
+    // }
+  },
   data(){
     return {
-      messages: Object.values(this.$store.state.messages)
+      // messages: Object.values(this.$store.state.messages)
+      //   .filter(message => message.discussionId === this.discussion)
     }
   }
 }

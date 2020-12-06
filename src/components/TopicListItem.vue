@@ -1,18 +1,19 @@
 <template>
   <v-list-item
-    :lesson="lesson"
-    :key="lesson['.key']"
+    :topic="topic"
+    :key="topic.publishedAt"
   >
-    <router-link :to="{name: 'LessonShow', params: {id: lesson['.key']}}">
-      {{ lesson.name }}
+    <router-link :to="{name: 'TopicShow', params: {id: topic}}">
+      {{ topic.name }}
     </router-link>
   </v-list-item>
 </template>
 
 <script>
 export default {
+  name: 'TopicListItem',
   props: {
-    lesson: {
+    topic: {
       required: true,
       type: Object
     }

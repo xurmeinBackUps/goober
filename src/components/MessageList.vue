@@ -1,9 +1,9 @@
 <template>
-  <div >
+  <div class="message-list-item">
     <MessageListItem
       v-for="message in messages" 
       :message="message"
-      :key="message['.key']"
+      :key="message.publishedAt"
       class="messages"
     />
   </div>

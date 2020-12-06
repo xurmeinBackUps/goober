@@ -1,9 +1,12 @@
 <template>
-  <div class="about">
-    <SpiderManCard />
+  <v-container
+    app
+    class="about"
+  >
+    <SpiderManCard quote="There's always a bypass a key, a virus key, a who-cares key; I can never remember, so I just call it a 'goober.' -- Peter B. Parker, Earth-616"/>
     <TestInput />
     <HelloWorld />
-  </div>
+  </v-container>
 </template>
 
 <script>

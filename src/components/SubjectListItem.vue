@@ -1,35 +1,39 @@
 <template>
-  <div class="lesson-list">
+  <div class="subject-list-item">
 
     <h2 class="list-title">
-      <router-link :to="{name: 'SubjectShow', params: {id: subject['.key']}}">
+      <router-link :to="{name: 'SubjectShow', params: {id: subject}}">
         {{ subject.name }}
       </router-link>
     </h2>
 
-    <LessonList :lessons="subjectLessons"/>
+
   </div>
 </template>
 
 <script>
-import LessonList from './LessonList'
+// import TopicList from './TopicList.vue'
 
 export default {
   name: 'SubjectListItem',
   components: {
-    LessonList
+    // TopicList
   },
   props: {
+    // id: {
+    //   type: String,
+    //   required: true
+    // },
     subject: {
       required: true,
       type: Object
     }
   },
   computed: {
-    subjectLessons () {
-      return Object.values(this.$store.state.lessons)
-        .filter(lesson => lesson.subjectId === this.subject['.key'])
-    }
+    // subjectTopics () {
+    //   return Object.values(this.$store.state.topics)
+    //     .filter(topics => lesson.subjectId === this.subject)
+    // }
   }
 }
 </script>
