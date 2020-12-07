@@ -9,9 +9,6 @@ import '@mdi/font/css/materialdesignicons.css';
 
 Vue.config.productionTip = false;
 
-db.ref('messages').on('child_added', snapshot => console.log(snapshot.val()))
-db.ref('lessons').on('child_added', snapshot => console.log(snapshot.val()))
-
 new Vue({
   db,
   vuetify,

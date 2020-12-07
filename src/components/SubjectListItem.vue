@@ -20,13 +20,14 @@ export default {
     // TopicList
   },
   props: {
-    // id: {
-    //   type: String,
-    //   required: true
-    // },
-    subject: {
-      required: true,
-      type: Object
+    id: {
+      type: String,
+      required: true
+    }
+  },
+  data() {
+    return {
+      // subject: this.
     }
   },
   computed: {
