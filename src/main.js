@@ -15,4 +15,4 @@ new Vue({
   router,
   store,
   render: (h) => h(AppRoot),
-}).$mount('#app');
+}).$mount('#ks-goober-app');
