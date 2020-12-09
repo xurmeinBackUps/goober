@@ -5,7 +5,7 @@
     >
       <div class="d-flex align-center">
         <v-img
-          alt="Vue Logo"
+          alt="Xsell Logo"
           class="shrink my-1"
           contain
           :src="require('@/assets/xsell_logo.svg')"

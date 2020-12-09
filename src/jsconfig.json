@@ -1,0 +1,11 @@
+{"entry": {
+ "app": "./src/main.js"
+},
+  "compilerOptions": {
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  }
+}

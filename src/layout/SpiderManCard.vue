@@ -1,21 +1,20 @@
 <template>
   <v-card
     class="mx-auto"
-    width="75%"
+    width="67%"
   >
 
-      <v-col cols="12">
+
         <v-img
           :src="require('@/assets/peter_b_parker.jpg')"
           class="my-3"
-          contain
-          height="200"
+
         />
 
-        <v-card-text>{{ quote }}</v-card-text>
+        <v-card-title>{{ quote }}</v-card-title>
 
 
-      </v-col>
+
   </v-card>
 </template>
 
