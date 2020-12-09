@@ -1,0 +1,15 @@
+{
+  "include": [
+    "./src/**/*",
+    "./src/main.js"
+  ],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+          "components/*": [
+              "src/components/*"
+          ]
+      }
+  }
+}
