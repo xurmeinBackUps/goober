@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import store from '@/store';
 import router from '@/router';
-import db from '@/plugins/firebase.db';
+import db from '@/plugins/vuefire';
 import vuetify from '@/plugins/vuetify';
 import AppRoot from '@/AppRoot.vue';
 import 'roboto-fontface/css/roboto/roboto-fontface.css';
@@ -15,4 +15,4 @@ new Vue({
   router,
   store,
   render: (h) => h(AppRoot),
-}).$mount('#ks-goober-app');
+}).$mount('#app');

@@ -4,7 +4,7 @@
       class="topic-show"
     >
       <div >
-        <h1>This is <code>/views/LessonShowPage.vue</code></h1>
+        <h1>This is <code>/views/TopicShowPage.vue</code></h1>
           <!-- <TopicLessonContainer :lesson="topicLesson" /> -->
           <!-- <TopicDiscussionContainer :discussion="topicDiscussion" /> -->
   </div>

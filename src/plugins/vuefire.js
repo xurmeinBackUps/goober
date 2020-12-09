@@ -3,7 +3,7 @@ import firebase from 'firebase/app';
 import 'firebase/database';
 import { rtdbPlugin } from 'vuefire';
 
-Vue.use(rtdbPlugin);
+Vue.use(rtdbPlugin, options);
 
 const firebaseConfig = {
   apiKey: process.env.VUE_APP_API_KEY,
@@ -16,8 +16,6 @@ const firebaseConfig = {
   measurementId: process.env.VUE_APP_MEASUREMENT_ID,
 };
 
-const db = firebase.initializeApp({
+export const db = firebase.initializeApp({
   databaseURL: firebaseConfig.databaseURL
 }).database();
-
-export default db;

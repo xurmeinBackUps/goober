@@ -11,6 +11,7 @@
 </template>
 
 <script>
+import { db } from './firebase.db.js';
 import TheSystemBar from '@/layout/TheSystemBar.vue';
 import TheNavDrawer from '@/layout/TheNavDrawer.vue';
 
@@ -26,11 +27,12 @@ export default {
 
   }),
   created() {
-    // this.db.ref('discussions').on('child_added', snapshot => this.$store.state.discussions.push(snapshot.val()))
-    // this.db.ref('lessons').on('child_added', snapshot => this.$store.state.lessons.push(snapshot.val()))
-    // this.db.ref('messages').on('child_added', snapshot => this.$store.state.messages.push(snapshot.val()))
-    // this.db.ref('subjects').on('child_added', snapshot => this.$store.state.subjects.push(snapshot.val()))
-    // this.db.ref('topics').on('child_added', snapshot => this.$store.state.topics.push(snapshot.val()))
+    
+    this.db.ref('discussions').on('child_added', snapshot => this.$store.state.discussions.push(snapshot.val()))
+    this.db.ref('lessons').on('child_added', snapshot => this.$store.state.lessons.push(snapshot.val()))
+    this.db.ref('messages').on('child_added', snapshot => this.$store.state.messages.push(snapshot.val()))
+    this.db.ref('subjects').on('child_added', snapshot => this.$store.state.subjects.push(snapshot.val()))
+    this.db.ref('topics').on('child_added', snapshot => this.$store.state.topics.push(snapshot.val()))
   } 
 };
 </script>
